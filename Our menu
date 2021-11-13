@@ -1,23 +1,40 @@
-</style>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Module 2</title>
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <h1>Our Menu</h1>
-        <div id=d1>
-            <div id=he1>Chicken</div>
-            <p>Chicken better than Popeyes and Chick Fil A</p>
-        </div>
-        <div id=d2>
-            <div class=he2>Beef</div>
-            <p>Not for the impossible meat lovers</p>
+<head>
 
-        </div>
-        <div id=d3>
-            <div id=he3>Sushi</div>
-            <p>Raw fish is the tastiest</p>
-        </div>
-    </body>
+	<link rel="stylesheet" type="text/css" href="">
+	<title>Module 2</title>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="row">
+	<div class="container col-lg-4 col-md-6 col-sm-12">
+		<section>
+		<div id="Chicken">
+		</div>
+		<p>
+			Better than Popeyes and Chick Fil A 
+		</p>
+		</section>
+	</div>
+	<div class="container col-lg-4 col-md-6 col-sm-12">
+		<section>
+		<div id="beef">
+		</div>
+		<p>
+			 Not like the impossible burger. 
+		</p>
+		</section>
+	</div>
+	<div class="container col-lg-4 col-md-12 col-sm-12">
+		<section>
+		<div id="sushi">
+		</div>
+		<p>
+			Raw fish is the tastiest. 
+		</p>
+		</section>
+	</div>
+	</div>
+</body>
+</html>
